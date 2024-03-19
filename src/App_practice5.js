@@ -18,12 +18,11 @@ function App() {
   }
 
   function login() {
-    if (loginId === id && loginPw === pw) {
-      alert("로그인 성공");
-    } else {
-      alert("로그인 실패");
-    }
+    loginId === id && loginPw === pw
+      ? alert("로그인 성공")
+      : alert("로그인 실패");
   }
+
   return (
     <>
       <UserID input={inputId} />
