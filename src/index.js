@@ -6,7 +6,10 @@ import reportWebVitals from "./reportWebVitals";
 // import App_practice1_2 from "./App_practice1_2";
 // import App_practice3 from "./App_practice3";
 // import App_practice4 from "./App_practice4";
-import App_practice5 from "./App_practice5";
+// import App_practice5 from "./App_practice5";
+// import App_events_practice1 from "./App_events_practice1";
+import App_events_practice2 from "./App_events_practice2";
+// import App_events_practice3 from "./App_events_practice3";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,7 +18,10 @@ root.render(
     {/* <App_practice1_2 /> */}
     {/* <App_practice3 /> */}
     {/* <App_practice4 /> */}
-    <App_practice5 />
+    {/* <App_practice5 /> */}
+    {/* <App_events_practice1 /> */}
+    <App_events_practice2 />
+    {/* <App_events_practice3 /> */}
   </>
 );
 
