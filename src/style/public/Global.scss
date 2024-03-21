@@ -1,0 +1,10 @@
+$primary-color: black;
+
+body {
+  $primary-color: red !global;
+
+  background-color: $primary-color;
+}
+p {
+  color: $primary-color;
+}

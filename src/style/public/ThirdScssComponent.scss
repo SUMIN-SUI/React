@@ -1,0 +1,9 @@
+$primary-color: black;
+
+.container {
+  $primary-color: red;
+  background-color: $primary-color;
+}
+.hello {
+  color: $primary-color;
+}
