@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+
 // import App from "./App";
 // import App_practice1_2 from "./App_practice1_2";
 // import App_practice3 from "./App_practice3";
@@ -16,7 +17,9 @@ import reportWebVitals from "./reportWebVitals";
 // import FirstScssComponent from "./style/components/FirstScssComponent";
 // import App_Nesting from "./style/App_Nesting";
 // import App_ParentSelector from "./style/components/ParentSelector";
-import App_operations from "./style/components/Operations.jsx";
+// import App_operations from "./style/components/Operations.jsx";
+// import App_useEffect from "./useEffect/App_useEffect";
+import App_useRef from "./useRef/App_useRef";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -34,7 +37,9 @@ root.render(
     {/* <App_styled_components_props /> */}
     {/* <App_Nesting /> */}
     {/* <App_ParentSelector /> */}
-    <App_operations />
+    {/* <App_operations /> */}
+    {/* <App_useEffect /> */}
+    <App_useRef />
   </>
 );
 
