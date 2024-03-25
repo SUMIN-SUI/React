@@ -19,7 +19,10 @@ import reportWebVitals from "./reportWebVitals";
 // import App_ParentSelector from "./style/components/ParentSelector";
 // import App_operations from "./style/components/Operations.jsx";
 // import App_useEffect from "./useEffect/App_useEffect";
-import App_useRef from "./useRef/App_useRef";
+// import App_useRef from "./useRef/App_useRef";
+// import App_useMemo from "./useMemo/App_useMemo";
+// import App_useCallback from "./useCallback/App_useCallback";
+import App_practice_hooks from "./practice_hooks/App_practice_hooks";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -39,7 +42,10 @@ root.render(
     {/* <App_ParentSelector /> */}
     {/* <App_operations /> */}
     {/* <App_useEffect /> */}
-    <App_useRef />
+    {/* <App_useRef /> */}
+    {/* <App_useMemo /> */}
+    {/* <App_useCallback /> */}
+    <App_practice_hooks />
   </>
 );
 
