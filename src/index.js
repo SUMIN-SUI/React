@@ -22,7 +22,12 @@ import reportWebVitals from "./reportWebVitals";
 // import App_useRef from "./useRef/App_useRef";
 // import App_useMemo from "./useMemo/App_useMemo";
 // import App_useCallback from "./useCallback/App_useCallback";
-import App_practice_hooks from "./practice_hooks/App_practice_hooks";
+// import App_practice_hooks from "./practice_hooks/App_practice_hooks";
+// import App_propsDrilling from "./context/App_propsDrilling";
+// import App_context from "./context/App_context";
+// import App_useReducer from "./useReducer/App_useReducer";
+// import App_prac_context from "./practice_context/App_prac_context";
+import App_prac_useReducer from "./practice_useReducer/App_prac_useReducer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -45,7 +50,12 @@ root.render(
     {/* <App_useRef /> */}
     {/* <App_useMemo /> */}
     {/* <App_useCallback /> */}
-    <App_practice_hooks />
+    {/* <App_practice_hooks /> */}
+    {/* <App_propsDrilling /> */}
+    {/* <App_context /> */}
+    {/* <App_useReducer /> */}
+    {/* <App_prac_context /> */}
+    <App_prac_useReducer />
   </>
 );
 
