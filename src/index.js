@@ -27,7 +27,15 @@ import reportWebVitals from "./reportWebVitals";
 // import App_context from "./context/App_context";
 // import App_useReducer from "./useReducer/App_useReducer";
 // import App_prac_context from "./practice_context/App_prac_context";
-import App_prac_useReducer from "./practice_useReducer/App_prac_useReducer";
+// import App_prac_useReducer from "./practice_useReducer/App_prac_useReducer";
+
+// Redux ⇩
+import { Provider } from "react-redux";
+// import store from "./redux/store";
+// import App_redux from "./redux/App_redux";
+
+import store from "./redux_prac/store";
+import App_prac_redux from "./redux_prac/App_prac_redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -55,11 +63,16 @@ root.render(
     {/* <App_context /> */}
     {/* <App_useReducer /> */}
     {/* <App_prac_context /> */}
-    <App_prac_useReducer />
+    {/* <App_prac_useReducer /> */}
+
+    {/* Redux ⇩ */}
+    {/* <Provider store={store}>
+      <App_redux />
+    </Provider> */}
+    <Provider store={store}>
+      <App_prac_redux />
+    </Provider>
   </>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
