@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
+import App_router from "./router/App_router";
 
 // import App from "./App";
 // import App_practice1_2 from "./App_practice1_2";
@@ -30,12 +31,12 @@ import reportWebVitals from "./reportWebVitals";
 // import App_prac_useReducer from "./practice_useReducer/App_prac_useReducer";
 
 // Redux ⇩
-import { Provider } from "react-redux";
+// import { Provider } from "react-redux";
 // import store from "./redux/store";
 // import App_redux from "./redux/App_redux";
 
-import store from "./redux_prac/store";
-import App_prac_redux from "./redux_prac/App_prac_redux";
+// import store from "./redux_prac/store";
+// import App_prac_redux from "./redux_prac/App_prac_redux";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -69,9 +70,10 @@ root.render(
     {/* <Provider store={store}>
       <App_redux />
     </Provider> */}
-    <Provider store={store}>
+    {/* <Provider store={store}>
       <App_prac_redux />
-    </Provider>
+    </Provider> */}
+    <App_router />
   </>
 );
 
